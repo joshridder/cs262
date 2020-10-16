@@ -1,4 +1,0 @@
-Player(ID, emailAddress, name)
-PlayerGame(gameID, playerID, score)
-Game (ID, time)
-Property(ID, playerGameID, houses, hotels)

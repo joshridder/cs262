@@ -6,7 +6,7 @@ ORDER BY time DESC;
 -- b.
 SELECT *
 FROM Game
-WHERE time > '2020-10-17 00:00:00';
+WHERE time >= NOW() - interval '7 days';
 -- c.
 SELECT *
 FROM Player
